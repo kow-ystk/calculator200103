@@ -10,3 +10,10 @@ html {
   width: 600px;
   background: #a1a1a1;
 }
+
+.base_table {
+  border: 3px solid #333;
+  background: #ffff00;
+  width: 600px;
+  margin: 0 auto;
+}
