@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <h1 class="header_title">電卓</h1>
+    <form name="calcForm">
+      <table class="base_table">
+        <tr>
+          <td align="center" colspan="3">
+            <input type="text" name="calcLine" value="0">
+          </td>
+          <td align="center">
+            <input type="button" value="C" onclick="calcC()">
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <input type="button" value="7" onclick="calcValue(7)">
+          </td>
+          <td align="center">
+            <input type="button" value="8" onclick="calcValue(8)">
+          </td>
+          <td align="center">
+            <input type="button" value="9" onclick="calcValue(9)">
+          </td>
+          <td align="center">
+            <input type="button" value="÷" onclick="calcCalc('/')">
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <input type="button" value="4" onclick="calcValue(4)">
+          </td>
+          <td align="center">
+            <input type="button" value="5" onclick="calcValue(5)">
+          </td>
+          <td align="center">
+            <input type="button" value="6" onclick="calcValue(6)">
+          </td>
+          <td align="center">
+            <input type="button" value="×" onclick="calcCalc('*')">
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <input type="button" value="1" onclick="calcValue(1)">
+          </td>
+          <td align="center">
+            <input type="button" value="2" onclick="calcValue(2)">
+          </td>
+          <td align="center">
+            <input type="button" value="3" onclick="calcValue(3)">
+          </td>
+          <td align="center">
+            <input type="button" value="-" onclick="calcCalc('-')">
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <input type="button" value="0" onclick="calcValue(1)">
+          </td>
+          <td align="center">
+            <input type="button" value="." onclick="calcValue('.')">
+          </td>
+          <td align="center">
+            <input type="button" value="+" onclick="calcCalc('+')">
+          </td>
+          <td align="center">
+            <input type="button" value="=" onclick="calcCalc('=')">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
